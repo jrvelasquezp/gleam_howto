@@ -1,7 +1,6 @@
 import gleam/io
 
 pub fn main() {
-  io.println("Hello from exercise2!")
   io.debug(loopuntil(33))
 }
 
