@@ -10,9 +10,12 @@ pub fn main() {
 }
 
 //Version 0. Fill a list with triplets populated with only sequences of numbers
+//Version 1. Fill a list with triplets if n meet certain condition.
+
 pub fn fill_list(n: Int) -> List(Triplet) {
   case n {
     0 -> []
-    x -> [Triplet(x, x, x), ..fill_list(x - 1)]
+    x if x % 2 != 0 -> [Triplet(x, x, x), ..fill_list(x - 1)]
+    _ -> fill_list(n - 1)
   }
 }
