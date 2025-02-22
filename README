@@ -1,8 +1,19 @@
-This repository is a placeholder for Gleam exercises and a way to practice Functional Programming
+This repository is a placeholder for Gleam exercises and a way to practice Functional Programming.
+Especially, the objective is understando how to implement some of the features that are implemented
+on imperative languages using for and while.
 
 Index
 
 -Exercise 1. Simple Thing - Display a Hello World message.
+-Exercise 2. Simple loop - 
+
+Create a project
+
+To create a project, from the command line just type 
+
+$ gleam new </path/to/folder>
+
+inside the src folder, the code file with extension .gleam is the editable file.
 
 Local installation/execution
 
