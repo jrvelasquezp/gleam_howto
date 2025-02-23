@@ -8,7 +8,10 @@ Index
 -Exercise 2. Simple recursion - Fill a list with a given condition.
 -Exercise 3. Create an exercise that fill a list of a custom type with only the element that fulfill certain conditions.
 -Exercise 4. Given three numbers, return somethin that matches the conditions
-
+-Exercise 5. Understanding control flow if-else
+-Exercise 6. Understanding control flow foor-loop
+-Exercise 7. Understanding control flow while
+-Exercise 8. Understanding control flow case select
 
 Create a project
 
