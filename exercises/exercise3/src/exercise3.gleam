@@ -11,6 +11,7 @@ pub fn main() {
 
 //Version 0. Fill a list with triplets populated with only sequences of numbers
 //Version 1. Fill a list with triplets if n meet certain condition.
+//Version 2. Fill the triplet that matches a certain condition 
 
 pub fn fill_list(n: Int) -> List(Triplet) {
   case n {
